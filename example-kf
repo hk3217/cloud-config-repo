@@ -1,0 +1,7 @@
+spring:
+  #redis连接池配置
+  pool2:
+    maxTotal: 50
+    minIdle: 20
+    maxIdle: 30
+    maxWaitMillis: 5000
